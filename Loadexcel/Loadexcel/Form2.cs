@@ -35,7 +35,7 @@ namespace Loadexcel
                 {
                     try
                     {
-                        // Create Connection to Excel Workbook
+                        // Create Connection to Excel Workbook using OLEDB
                         using (OleDbConnection connection =
                                      new OleDbConnection(excelConnectionString))
                         {
